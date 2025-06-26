@@ -1,10 +1,9 @@
 package Collectionsconcept;
 
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.Map;
 import java.util.Set;
-
-import com.google.common.collect.Multiset.Entry;
 
 public class Mappsamplecollection {
 
@@ -32,6 +31,18 @@ public class Mappsamplecollection {
 //		}
 		
 		//System.out.println(m.get(1));
+		
+		
+		Set<java.util.Map.Entry<Integer, String>> s =m.entrySet();
+		
+		Iterator<java.util.Map.Entry<Integer, String>>  i = s.iterator();
+		
+		for(<java.util.Map.Entry<Integer, String>>: i)
+		{
+			
+		}
+		
+		
 		
 		
 		

@@ -26,7 +26,7 @@ public class settsamplecollection {
 //			System.out.println(ss);
 //		}
 		
-//		ArrayList all = new ArrayList(s);
+//		ArrayList all = new ArrayList(s);  //converting set to Arraylist
 //		System.out.println(all);
 //		
 //		 Iterator i = all.iterator();

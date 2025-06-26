@@ -33,7 +33,7 @@ public class collectionssss {
  student[] s = new student[]
  s[0] = new student(10,"first")
  s[1] = new student(20,"second")
- s[2] = new student(30,"third")  -> we cannot store this value why beacause it is not same type
+ s[2] = new employee(30,"third")  -> we cannot store this value why beacause it is not same type
  */
 
 /*
@@ -59,7 +59,7 @@ public class collectionssss {
  collection is entity or container to store object or value
  
  collections called framework y because it is providing pre defined interfces and classes
- and methods to perform operations on data
+ and methods to perform operations on data.
  
  */
 
@@ -98,10 +98,10 @@ public class collectionssss {
        stack
        
      We cannot create objects for list interface
-     for child classes which is imlementing interface we can create objects  
+     for child classes which is implementing interface we can create objects  
        
    AL al = new AL();
-   L l = new Al(); 
+   L l = new AL(); 
  */
 
 /*
@@ -281,7 +281,7 @@ public class collectionssss {
  null values not allowed
  data structure binary tree
  supports homogenous data
-  note: it should be homogenous why? if we add other data type it should compare then we will get class cast exception
+  note: it should be homogenous why? if we add other data type it should compare then we will get class caste exception
   note: if we add null value it compare with null value then we will get nullpointer exception
  */
 
@@ -321,7 +321,7 @@ public class collectionssss {
  */
 
 /*
- Set<integer> s = map.keyset();
+ Set<Integer> s = map.keyset();
  
   for(Integer g:s)
   {
@@ -358,7 +358,7 @@ public class collectionssss {
   used to store in key value pair
   default capaity 16
   load factor 0.75
-  data structure has table
+  data structure hash table
   insertion order will not be maintained
  
  */
@@ -368,7 +368,27 @@ public class collectionssss {
  -------------
  Implenetataion class for map interface
  maintains insertion order
- data structure is hashtabel +
+ data structure is hashtable + double linked list
+ */
+
+
+/*
+ TreeMap
+ ------
+ extedns map interface
+ natural sorting order for keys
+ data structure is binary tree
+  
+ */
+
+/*
+ Queue
+ ------
+ extends properties of collection interface
+ used store group of objects
+ internal data structure is FIFO
+ Insertion order happends at end
+ remove will happen at begin
  */
 
 
